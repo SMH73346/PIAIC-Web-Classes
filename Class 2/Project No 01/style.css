@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #0c0c0c;
+    color: aliceblue;
+}
+
+.call{
+    border: 2px solid #000;
+}
+.Email{
+    border: 2px solid #000;
+
+}
+.Location{
+    border: 2px solid #000;
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+}
+
+.navLinks li{
+    list-style: none;
+}
+
+.heroSection{
+    background: url(/images/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424141;
+} 
+
+.heroText{
+    width: 500px;
+}
